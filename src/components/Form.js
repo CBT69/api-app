@@ -4,7 +4,7 @@ import React from 'react';
 const  Form = props => {            //passes props to the app
     return ( 
         <div>
-            <form>
+            <form onSubmit={props.submit}>
                 <input 
                 type="text" 
                 value={props.value}   // props takes event value 
