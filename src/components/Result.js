@@ -3,12 +3,12 @@ import React from 'react';
 // stateless result component (sfc command)
 const  Result = (props) => {
 
-    const { date, time, err, city, wind, sunset, sunrise, pressure, temp } = props.weather
+    const { date, err, city, wind, sunset, sunrise, pressure, temp } = props.weather
     
     let content = null;
-
+    // condition for content display (no errors and city name true)
     if(!err && city) {
-
+        // setup for displaying correct time format
         const sunriseTime = new Date(sunrise * 1000).toLocaleTimeString();
         const sunsetTime = new Date(sunset * 1000).toLocaleTimeString();
         
