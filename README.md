@@ -1,3 +1,12 @@
+
+# Weather app - API fetch
+This is a simple application made as an Reactjs exercise in use of the API fetch method. Only basic styling is made due to potential future implementation.
+
+The application retrieves data from the public API using a unique ID key and displays the current weather conditions in the city selected by the user.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
